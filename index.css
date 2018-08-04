@@ -1,0 +1,280 @@
+/* Top Navigation*/
+
+.topnav {
+     
+     display: flex;
+     list-style-type: none;
+     justify-content: space-between;
+     background-color:#0D2A2E;
+     height: 30px;
+     font-size: 25px;
+     padding: 40px;
+     
+}
+
+ a {
+     
+     color: #f9f7f6;
+     font-family: 'Palanquin', sans-serif;
+   
+}
+
+/* Side Navigation Left*/
+
+ .sidenav {
+     
+     height: 100%;
+     width: 250px;
+     position:fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     background-color: #111;
+     overflow-x: hidden;
+     padding-top: 20px;
+     background-image: url(images/black.jpg);
+     background-repeat: no-repeat;
+     background-size: auto 100%;
+     
+}
+
+ .sidenav a {
+     
+     padding: 6px 8px 6px 16px;
+     text-decoration: none;
+     font-size: 25px;
+     display: block;
+     justify-content:space-between;
+     font-family: 'Palanquin', sans-serif;
+     
+}
+
+/* Side Navigation Right */
+
+ .sidenavright {
+     
+     height: 150%;
+     width: 250px;
+     position:fixed;
+     z-index: 1;
+     top: 0;
+     right: 0;
+     background-color: #111;
+     overflow-x: hidden;
+     background-image: url(images/black.jpg);
+     background-repeat: no-repeat;
+     background-size: auto 100%;
+     transform: rotate(180deg);
+}
+
+ .black {
+     
+     height: 85%;
+     width: 365px;
+   
+}
+
+/* body */
+
+ body {
+     
+     font-family: 'Palanquin', sans-serif;
+     background-color:#747880;
+     margin-right: 15%;
+     margin-left: 15%;
+     
+}
+
+ h1 {
+     
+     font-size: 40px;
+     text-decoration: underline;
+     color: #0d0d0d;
+     
+}
+
+ h2 {
+     
+     font-size: 35px;
+     color: #0d0d0d;
+     
+}
+
+ h3 {
+     
+     font-size: 30px;
+     color: #0d0d0d;
+     
+}
+
+ h4 {
+     
+     font-size: 25px;
+     color: #0d0d0d;
+     
+}
+
+p, .observes {
+     
+     font-size: 25px;
+     color: #0d0d0d;
+     
+}
+
+.sectionone {
+     
+     text-align: center;
+     margin-top: 150px;
+     
+}
+
+/* Images */
+
+/* History images */
+
+ .whitehouseimage {
+     
+     margin-top: 30px;
+     height: 700px;
+     width: 100%;
+     
+}
+
+.keyboardimage {
+     
+     height: 500px;
+     width: 100%;
+     
+}
+
+ .tunnelimage {
+     
+     height: 500px;
+     width: 100%;
+     
+}
+
+/* Cookies and E-Authentication images */
+
+ .internetcafeimage {
+     
+     margin-top: 30px;
+     height: 700px;
+     width: 100%;
+     
+}
+
+ .desktopimage {
+     
+     height: 800px;
+     width: 100%;
+}
+
+ .loginimage {
+     
+     height: 600px;
+     width: 100%;
+   
+}
+
+/* Interoperability images */
+
+ .wireimage {
+     
+     margin-top: 30px;
+     height: 600px;
+     width: 100%;
+     
+}
+
+ .flagimage {
+     
+     height: 500px;
+     width: 100%;
+     
+}
+
+ .connectionimage {
+     
+     height: 720px;
+     width: 100%;
+     
+}
+
+/*References*/
+
+ .references {
+     
+     list-style-type: none;
+     width: 98%;
+     line-height: 1.5;
+     
+}
+
+/* Media Query */
+
+ @media screen and (max-width: 1850px) {
+     
+     body {
+         
+         flex-direction: column;
+         
+    }
+     
+     .sidenav {
+         
+         visibility: hidden;
+    }
+     
+     .topnav {
+         
+         flex-direction: column;
+         
+    }
+     
+     .sidenavright {
+         
+         visibility: hidden;
+         
+    }
+     
+    .whitehouseimage, .keyboardimage, .tunnelimage, .internetcafeimage, .desktopimage, .loginimage, .wireimage,       .flagimage, .connectionimage {
+         
+         height: 50%;
+         
+    }
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
